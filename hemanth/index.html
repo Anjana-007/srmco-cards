@@ -13,7 +13,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#F4F5F
 .hdr{background:linear-gradient(150deg,#1A3A8F 0%,#0E1F52 100%);border-radius:20px 20px 0 0;padding:30px 24px 26px;text-align:center;position:relative;overflow:hidden}
 .hdr::before{content:'';position:absolute;top:-40%;right:-20%;width:220px;height:220px;background:radial-gradient(circle,rgba(197,165,90,.12) 0%,transparent 70%);border-radius:50%}
 .logos{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:22px;position:relative;z-index:1}
-.logo-s{height:44px;filter:brightness(0) invert(1)}
+.logo-s{height:44px}
 .logo-d{width:1px;height:36px;background:rgba(255,255,255,.25)}
 .logo-c{height:48px;border-radius:5px}
 .pn{font-family:Georgia,'Times New Roman',serif;font-size:24px;font-weight:700;color:#fff;letter-spacing:.3px;position:relative;z-index:1}
@@ -114,10 +114,10 @@ body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#F4F5F
 </div>
 </div>
 </div>
-<a class="sav" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AHemanth%20Thripuraneni%0AORG%3ASriramamurthy%20%26%20Co.%0ATITLE%3APartner%0ATEL%3BTYPE%3DCELL%3A%2B919866141321%0AEMAIL%3Ahemanth%40srmcohyd.in%0AURL%3Ahttps%3A%2F%2Fwww.srmco.co.in%2F%0AEND%3AVCARD" download="Hemanth_Thripuraneni.vcf">
+<button class="sav" onclick="var v='BEGIN:VCARD\nVERSION:3.0\nFN:Hemanth Thripuraneni\nORG:Sriramamurthy &amp; Co.\nTITLE:Partner\nTEL;TYPE=CELL:+919866141321\nEMAIL:hemanth@srmcohyd.in\nURL:https://www.srmco.co.in/\nEND:VCARD';var b=new Blob([v],{type:'text/x-vcard'});window.location.href=URL.createObjectURL(b)">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
 Save Contact
-</a>
+</button>
 <div class="ft"><div class="ftn">Sriramamurthy & Co.</div><div class="ftt">Chartered Accountants</div></div>
 </div>
 </div>
